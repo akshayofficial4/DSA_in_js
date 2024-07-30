@@ -7,9 +7,13 @@
 //   : 40 -> false;
 
 const isPalindrome = function(num) {
-    return num < 0 ? false : num === +num.toString().split("").reverse().join(""); // first it checks the number is < 0 and if the condition doesn't satisfied then it moves to the else part.
-    //there it changes the number to string because the we split the string, then reverse, then join the string and check the condition...
+    return num < 0 ? false : num === +num.toString().split("").reverse().join(""); 
 }
 
 let result = isPalindrome(121);
 console.log(result);
+
+    //first it checks the number is < 0 ,
+    //if the condition doesn't satisfied then it moves to the else part.
+    //there it changes the number to string because the we split the string, then reverse, 
+    //then join the string and check the condition...

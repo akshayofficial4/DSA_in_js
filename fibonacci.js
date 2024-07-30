@@ -18,10 +18,15 @@ fib(5);
 
 //This is for the particular value 
 
-//const fib = (n) => n <= 1 ? n : fib( n - 1 ) + fib( n - 2 );
-//console.log(fib(3));
+            //const fib = (n) => n <= 1 ? n : fib( n - 1 ) + fib( n - 2 );
+            //console.log(fib(3));
 
 // This is the one liner code using arrow function...
 
+// we can solve this using the recursion also..
 
-
+            /*const fib = function(n) {
+                if (n<=1) return n;
+                return fib(n-1) + fib(n-2);
+            };
+            console.log(fib(4));*/
